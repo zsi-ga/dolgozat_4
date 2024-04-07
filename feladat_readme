@@ -1,0 +1,17 @@
+Két feladat:
+• Be kell üzemelnie egy REST API szervert, amely kiszolgálja tanulók adatait.
+• React Native telefonos alkalmazást kell készíteni, amely megjeleníti a tanulók
+adatait telefonon.
+Alakítsa ki a következő könyvtárszerkezetet:
+tanulok/
+ |-api/
+ |-mobil/
+Az api könyvtárban készítse el a REST API-t, a mobil könyvtárban a mobilalkalmazást.
+A REST API szerverhez töltse le tanulok.json fájlt. Végezze el a következőket:
+• Készítse el a hai-server segítségével a REST API szervert, amely kiszolgálja a
+tanulok.json fájlban található tanulókat. A hasi szerver számára készítsen
+NodeJS alkalmazást.
+• Készítsen szolgáltatást, amely kapcsolódhat GET metódussal a REST API
+szerverhez.
+• Jelenítse meg listában letöltött tanulókat.
+• A forrásfájlokban szerepeljen saját neve, csoportja és az aktuális dátum.
